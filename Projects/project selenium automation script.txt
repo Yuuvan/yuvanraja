@@ -1,0 +1,121 @@
+package Google;
+
+
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class Newclass {
+
+	public static void main(String[] args) throws Throwable {
+		
+	    System.setProperty("Webdriver.Chrome.driver", "C:\\Users\\YUVAN\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(80, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		
+		driver.get("https://magento.softwaretestingboard.com");
+		System.out.println("Browser launched the URL");	
+		System.out.println("Landed in Correct in page");
+		
+		WebElement logo = driver.findElement(By.xpath("//*[@class='logo']"));
+		Boolean a1=logo.isEnabled();
+		System.out.println("Logo is available");
+		System.out.println(a1);
+		
+		WebElement signInBtn = driver.findElement(By.xpath("//li[@class='authorization-link']/a[1]"));
+		signInBtn.click();
+		System.out.println("Landed in loginPage ");
+		
+		WebElement emailId = driver.findElement(By.id("email"));
+		emailId.sendKeys("testautomation@gmail.com");
+		System.out.println("Entered Email address");
+		
+		WebElement password = driver.findElement(By.id("pass"));
+		password.sendKeys("Test@123");
+		System.out.println("Entered Password");
+		
+		WebElement signIn = driver.findElement(By.xpath("//button[@id='send2']/span[1]"));
+		signIn.click();
+		System.out.println("Navigating to Home page");
+		Thread.sleep(5000);
+		
+		String welcomeMsg = driver.findElement(By.xpath(" /html/body/div[2]/header/div[1]/div/ul/li[1]/span"))
+				.getText();
+		System.out.print("The Welcome Message and Name is ...."+welcomeMsg);
+        System.out.println("Successfully Landed in HomePage verified with Welcome message");
+		
+        WebElement clickSearchbar = driver.findElement(By.id("search"));
+		System.out.println("Clicked on Search bar");
+		clickSearchbar.sendKeys("Mens Tees");
+		System.out.println("Value is placed in search bar");
+		
+		WebElement clickSearchIcon = driver.findElement(By.xpath("//button[@type='submit'][1]"));
+		clickSearchIcon.click();
+		System.out.println("Clicked Searched icon");
+		
+		WebElement clickImage = driver.findElement(By.partialLinkText("Deion Long-Sleeve EverCool"));
+		clickImage.click();
+		System.out.println("Clicked on the Product to buy");
+		
+		WebElement size = driver.findElement(By.xpath("//div[@id='option-label-size-143-item-166']"));
+		size.click();
+		System.out.println("Size selected successfully");
+		
+		WebElement colour = driver.findElement(By.xpath("//div[@id='option-label-color-93-item-49']"));
+		colour.click();
+		System.out.println("Colour got selected successfully");
+		
+		WebElement addToCartBtn = driver.findElement(By.xpath("//button[@id='product-addtocart-button']"));
+		addToCartBtn.click();
+		System.out.println("Clicked on Proceed to add to cart Button");
+		js.executeScript("window.scrollBy(100,0)", "");
+		Thread.sleep(10000);
+		
+		WebElement addToCartIcon = driver.findElement(By.xpath("//a[@class='action showcart']"));
+		//js.executeScript("arguments[0].click();", addToCartIcon);
+		 addToCartIcon.click();
+		 System.out.println("Clicked on Cart icon");
+		 
+		WebElement checkout = driver.findElement(By.xpath("//button[@id='top-cart-btn-checkout']"));
+		checkout.click();
+		System.out.println("Clicked on Proceed to Checkout");
+
+		WebElement nextButton = driver
+				.findElement(By.xpath("//*[@id='shipping-method-buttons-container']/div/button/span"));
+		js.executeScript("window.scrollBy(100,200)", "");
+		js.executeScript("arguments[0].click();", nextButton);
+		// nextButton.click();
+		System.out.println("Clicked on Next Button");
+		
+		WebElement placeOrder = driver.findElement(By.xpath("//button[@class='action primary checkout']"));
+		js.executeScript("arguments[0].click();", placeOrder);
+		System.out.println("Clicked on Place order button");
+		Thread.sleep(5000);
+		
+		String thanksMsg = driver.findElement(By.xpath("//*[@id='maincontent']/div[1]/h1/span")).getText();
+		System.out.println("Thank you Message....." + thanksMsg);
+		System.out.println("Succesfully received Thanking msg for order placed");
+		
+		String orderID = driver.findElement(By.xpath("//a[@class='order-number']")).getText();
+		System.out.println("Order ID is....." + orderID);
+		System.out.println("Succesfully Order ID is generated");
+		
+		driver.navigate().back();
+		System.out.println("Navigated back to previous page");
+		
+		driver.navigate().forward();
+		System.out.println("Naviagated to next page");
+		driver.quit();
+		
+	}
+
+}
+

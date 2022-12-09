@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#COM-2] To Verify User able  to recive a confirmation message</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://tanddkdkdkdkddd.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://tanddkdkdkdkddd.atlassian.net/browse/COM-1">To verify User able to purchase a product in e-commerce application</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://tanddkdkdkdkddd.atlassian.net/browse/COM-1">COM-1</a>)</span>
+                <h3 class="formtitle"><img src="https://tanddkdkdkdkddd.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [COM-2]&nbsp;<a href="https://tanddkdkdkdkddd.atlassian.net/browse/COM-2">To Verify User able  to recive a confirmation message</a>
+            <span class="subText">
+               Created: 27/Nov/22                   &nbsp;Updated: 02/Dec/22
+
+                                                    &nbsp;Resolved: 27/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://tanddkdkdkdkddd.atlassian.net/secure/BrowseProject.jspa?id=10003"> E-commerce application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Sub-task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="5d53f3cbc6b9320d9ea5bdc2"
+                id="word_reporter_5d53f3cbc6b9320d9ea5bdc2"
+                href="https://tanddkdkdkdkddd.atlassian.net/secure/ViewProfile.jspa?accountId=5d53f3cbc6b9320d9ea5bdc2">
+                    Jira Outlook
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63367bb9140ba0bf651c53e5"
+                id="word_assignee_63367bb9140ba0bf651c53e5"
+                href="https://tanddkdkdkdkddd.atlassian.net/secure/ViewProfile.jspa?accountId=63367bb9140ba0bf651c53e5">
+                    Yuvanraja
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10005-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Expected result:</b></td>
+                <td id="customfield_10046-10005-value" class="value" bgcolor="#ffffff" width="80%">      1.Add to cart option should be enabled<br/>
+2.Proceed to cart icon should be enabled<br/>
+3.OK option should be displayed for further process<br/>
+4.OK option should be displayed for further process<br/>
+5.Payment icon should be displayed<br/>
+6.Account holder name should be displayed<br/>
+7.&quot;Your order is confirmed message&quot; should be displayed
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Actual result:</b></td>
+                <td id="customfield_10047-10005-value" class="value" bgcolor="#ffffff" width="80%">      1.Add to cart option is enabled<br/>
+2.Proceed to cart icon is enabled<br/>
+3.OK option is displayed for further process<br/>
+4.OK option is  displayed for further process<br/>
+5.Payment icon is displayed<br/>
+6.Account holder name is displayed<br/>
+7.&quot;Your order is confirmed message&quot; is displayed
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Test case id:</b></td>
+                <td id="customfield_10048-10005-value" class="value" bgcolor="#ffffff" width="80%">    Tc_001,Tc_002,Tc_003,Tc_004,Tc_005,Tc_006</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Test data:</b></td>
+                <td id="customfield_10049-10005-value" class="value" bgcolor="#ffffff" width="80%">      1.User enters a valid address<br/>
+2.User enters a valid pin code<br/>
+3.User enters a valid amount<br/>
+4.User enters a valid account number
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Test step:</b></td>
+                <td id="customfield_10051-10005-value" class="value" bgcolor="#ffffff" width="80%">      1.User select the add to cart option<br/>
+2.User select the proceed cart option <br/>
+3.User enters  address name in text box<br/>
+4.User enters  Pin code number <br/>
+5.user select the payment option<br/>
+6.User enters amount<br/>
+7.User select the submit option
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>1.User select the add to cart option</p>
+
+<p>2.User select the proceed to  cart option</p>
+
+<p>3.User enters a valid address</p>
+
+<p>4.User enters a valid pin code</p>
+
+<p>5.User enters a valid money</p>
+
+<p>6.User enters a valid account number</p>
+
+<p>7.User select the submit option</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Fri Dec 09 08:02:01 UTC 2022 by Yuvanraja using Jira 1001.0.0-SNAPSHOT#100212-sha1:84509c41488e80d37a277ca93469b07f917e0839.
+
+</body>
+</html>
